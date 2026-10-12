@@ -7,6 +7,11 @@ class AppColors {
   static const mint = Color(0xFFD0F6E9);
   static const slate = Color(0xFF6F89A2);
   static const brown = Color(0xFF7D6B67);
+  static const black = Color(0xFF000000);
+  static const deepSlate = Color(0xFF46557A);
+  static const ink = Color(0xFF3E485F);
+  static const cream = Color(0xFFFFFDF9);
+  static const lavenderLine = Color(0xFFCFC8E6);
 }
 
 class AppTheme {

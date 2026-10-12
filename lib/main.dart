@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'theme/app_theme.dart';
-import 'screens/main_shell.dart';
+import 'screens/splash_screen.dart';
 
 void main() => runApp(const FortuneApp());
 
@@ -13,7 +13,7 @@ class FortuneApp extends StatelessWidget {
       title: '오늘의 운세',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: const MainShell(),
+      home: const SplashScreen(),
     );
   }
 }
